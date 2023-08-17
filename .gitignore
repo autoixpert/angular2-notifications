@@ -2,6 +2,9 @@
 node_modules/*
 npm-debug.log
 
+# Angular
+.angular/*
+
 # TypeScript
 src/*.js
 src/*.map

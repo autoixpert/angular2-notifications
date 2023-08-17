@@ -29,11 +29,7 @@
           }
         ],
         "@typescript-eslint/naming-convention": [
-          "error",
-          {
-            "selector": ["typeLike", "enumMember"],
-            "format": ["PascalCase"]
-          }
+          "off"
         ]
       }
     },
