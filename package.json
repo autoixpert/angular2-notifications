@@ -3,6 +3,7 @@
   "typings": "./dist/index.d.ts",
   "version": "16.0.0",
   "scripts": {
+    "prepare": "npm run build",
     "build": "ng run angular2-notifications:build:production",
     "docs": "npm run docs:build",
     "docs:build": "compodoc -p tsconfig.json -n angular2-notifications -d docs --hideGenerator",
